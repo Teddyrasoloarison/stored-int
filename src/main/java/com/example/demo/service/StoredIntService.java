@@ -11,7 +11,7 @@ import java.util.Random;
 @Service
 public class StoredIntService {
 
-    private final String filePath = "/tmp/stored-int";
+    private static final String filePath = "/tmp/stored-int";
 
 
     public int getOrCreatedStoredInt() {
